@@ -3,8 +3,8 @@ var newHeading = document.createElement("h1");
 var newParagraph = document.createElement("p");
 
 // to add content, either use innerHTML
-//newHeading.innerHTML = "Did You Know?";
-//newParagraph.innerHTML = "California produces over 17 million gallons of wine each year!";
+newHeading.innerHTML = "Did You Know?";
+newParagraph.innerHTML = "California produces over 17 million gallons of wine each year!";
 
 // OR create child nodes manually
 //var h1Text = document.createTextNode("Did You Know?");
