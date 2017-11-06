@@ -1,6 +1,6 @@
 //create the elements
-//var newHeading = document.createElement("h1");
-//var newParagraph = document.createElement("p");
+var newHeading = document.createElement("h1");
+var newParagraph = document.createElement("p");
 
 // to add content, either use innerHTML
 //newHeading.innerHTML = "Did You Know?";
