@@ -6,3 +6,10 @@ emailField.onfocus = function() {
 		emailField.value = "";
 	}
 };
+
+
+emailField.onblur = function() {
+	if ( emailField.value == "") {
+		emailField.value = "your email";
+	}
+};
