@@ -10,3 +10,16 @@ function deeperFunction() {
 		// more exciting code.
 	}
 }
+
+function simpleFunction() {
+	// jump into a deeper function
+	deeperFunction();
+	// now grab the message and change it.
+	var newMessage = messageArray[messageIndex];
+	var messageElement = document.getElementById("mainMessage");
+	messageElement.innerHTML = newMessage;
+	messageIndex++;
+	if (messageIndex > messageArray.length) {
+		messageIndex = 0;
+	}
+}
