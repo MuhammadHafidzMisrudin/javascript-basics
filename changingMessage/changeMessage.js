@@ -23,3 +23,11 @@ function simpleFunction() {
 		messageIndex = 0;
 	}
 }
+
+function changeMessage() {
+	simpleFunction();
+}
+
+window.onload = function() {
+	setInterval(changeMessage,4000);
+};
