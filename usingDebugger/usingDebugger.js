@@ -19,7 +19,7 @@ function simpleFunction() {
 	var messageElement = document.getElementById("mainMessage");
 	messageElement.innerHTML = newMessage;
 	messageIndex++;
-	if (messageIndex > messageArray.length) {
+	if (messageIndex >= messageArray.length) {
 		messageIndex = 0;
 	}
 }
