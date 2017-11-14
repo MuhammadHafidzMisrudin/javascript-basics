@@ -2,6 +2,7 @@ var messageArray = ["The true heart of California","Tours as diverse as Californ
 var messageIndex = 0;
 
 function deeperFunction() {
+
 	// perform loop
 	for (var i = 0; i < 500; i++) {
 		// do stuff.
@@ -12,8 +13,10 @@ function deeperFunction() {
 }
 
 function simpleFunction() {
+
 	// jump into a deeper function
 	deeperFunction();
+
 	// now grab the message and change it.
 	var newMessage = messageArray[messageIndex];
 	var messageElement = document.getElementById("mainMessage");
@@ -25,6 +28,7 @@ function simpleFunction() {
 }
 
 function changeMessage() {
+	// invoke simpleFunction()
 	simpleFunction();
 }
 
