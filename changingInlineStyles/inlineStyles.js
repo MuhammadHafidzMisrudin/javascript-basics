@@ -23,3 +23,7 @@ function animateBox() {
 		document.getElementById("join").style.top = "";
 	}
 }
+
+window.onload = function() {
+	setTimeout(beginAnimate, 5000);
+};
