@@ -1,4 +1,5 @@
 // prevent a form from submitting
+// function to handle a functionality of CSS className and to be rendered on window if event is triggered
 function preparePage() {
 	document.getElementById("mainContent").onclick = function() {
 		if (document.getElementById("mainContent").className == "example") {
@@ -8,3 +9,7 @@ function preparePage() {
 		}
 	};
 }
+
+window.onload = function() {
+	preparePage();
+};
