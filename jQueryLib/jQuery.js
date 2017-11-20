@@ -40,3 +40,13 @@ $("h2").click(function() {
 $("p").click(function() {
 	$(this).fadeOut(2000);
 });
+
+// Page load events - instead of window.onload()
+$(document).ready(function() {
+	$("#pageID").text("The DOM is fully loaded.");
+});
+
+// you don't have to worry about accidentally calling it multiple times.
+$(document).ready(function() {
+	$("h1").css("color", "red");
+});
