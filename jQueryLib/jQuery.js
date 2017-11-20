@@ -15,3 +15,10 @@ jQuery("li:last").addClass("highlight");
 
 // find any paragraph that contain the word "packages"
 jQuery("p:contains('packages')").addClass("highlight");
+
+// EFFECTS
+
+// hide all paragraphs.
+$("p").hide(4000);
+
+$("p").fadeOut(4000);
