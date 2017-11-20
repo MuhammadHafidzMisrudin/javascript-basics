@@ -27,8 +27,8 @@ $("p").fadeOut(4000);
 
 // simple click
 $("#pageID").click(function() {
-	$("#pageID").text("You clicked me!");
-	//$("#pageID").text($("#pageID").text() == 'Tours' ? 'You clicked me!' : 'Tours');
+	//$("#pageID").text("You clicked me!");
+	$("#pageID").text($("#pageID").text() == 'Tours' ? 'You clicked me!' : 'Tours');
 });
 
 // add $(this) to refer to current element
@@ -36,7 +36,7 @@ $("h2").click(function() {
 	$(this).text("You clicked me!");
 });
 
-// add effects - this makes each paragraph fade out when clicked.
+// add effects - $(this). makes each paragraph fade out when clicked.
 $("p").click(function() {
 	$(this).fadeOut(2000);
 });
