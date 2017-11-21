@@ -1,5 +1,7 @@
 // Simple prototype example
 
+// formalize object with constructor
+// implementation of formalized object-oriented structure
 function Player(n, s, r) {
 	this.name = n;
 	this.score = s;
