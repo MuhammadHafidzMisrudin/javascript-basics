@@ -2,6 +2,10 @@
 var secondsRemaining;
 var intervalHandle;
 
+function resetPage() {
+	document.getElementById("inputArea").style.display = "block";
+}
+
 function tick() {
 	// grab the h1
 	var timeDisplay = document.getElementById("time");
