@@ -19,4 +19,8 @@ Player.prototype.promote = function() {
 	console.log("My new rank is: ", obj);
 }
 
+// instantiate an object Player called fred/Fred of variable of fred.
+// pass paramaters, name: Fred, score: 10000 and rank: 5
 var fred = new Player("Fred", 10000, 5);
+fred.logInfo();
+fred.promote();
