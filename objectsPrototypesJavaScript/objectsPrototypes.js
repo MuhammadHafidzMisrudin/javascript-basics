@@ -8,7 +8,15 @@ function Player(n, s, r) {
 
 Player.prototype.logInfo = function() {
 	// body...
+	// TODO
 	console.log("I am:", this.name);
+}
+
+Player.prototype.promote = function() {
+	// body...
+	// TODO
+	this.rank++;
+	console.log("My new rank is: ", obj);
 }
 
 var fred = new Player("Fred", 10000, 5);
