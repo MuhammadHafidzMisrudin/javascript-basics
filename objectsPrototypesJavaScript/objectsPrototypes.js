@@ -24,3 +24,8 @@ Player.prototype.promote = function() {
 var fred = new Player("Fred", 10000, 5);
 fred.logInfo();
 fred.promote();
+
+// instantiate a new Player
+var bob = new Player("Bob", 5, 1);
+bob.logInfo();
+bob.promote();
