@@ -15,3 +15,12 @@ function adjustStyle() {
 		document.getElementById("myCSS").setAttribute("href", "_css/main.css");
 	}
 }
+
+// now call it when the window is resized.
+window.onresize = function() {
+	adjustStyle();
+};
+
+window.onload = function() {
+	adjustStyle();
+}
